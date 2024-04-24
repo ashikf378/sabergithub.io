@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./img/fav3.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Saber - Mini_Portfolio</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <!-- Insert your image, according to the example size of the portfolio -->
+                        <img src="img/saberimage2.jpg" alt="profile-img">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Saber Hossain</h2>
+                <h3 class="profile__profession">Junior Mechanical Engineer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://twitter.com/SaberHossi63832" target="_blank" class="profile__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saber-hossian-4b214a305/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/ashikf378" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.reddit.com/user/Grouchy_Hovercraft_5/" target="_blank" class="profile__social-link">
+                        <i class="ri-rss-fill"></i>
+                    </a>
+                </ul>
+            </div>
+
+
+
+            
+
+            <div class="profile__buttons">
+                <!-- Insert your CV -->
+                <a download=""
+                    href="https://drive.google.com/file/d/1VzMNxd9fXht0xyLY_gFhOkKGQaWUl_wl/view?usp=sharing"
+                    class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <!-- Insert a real number plus country code -->
+                    <a href="HTTPS://wa.me/8801990789270" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <!-- Insert your brand name or profile -->
+                    <a href="https://www.facebook.com/profile.php?id=100008900834544" target="_blank"
+                        class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button" data-target="#skills">Skills</button>
+                <button class="filters__button filter-tab-active" data-target="#projects">Projects</button>
+                <button class="filters__button" data-target="#education">Solidworks</button>
+                <button class="filters__button" data-target="#Events">Events</button>
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div>
+                    <div class="projects__content grid filters__active" data-content id="projects">
+
+                        <article class="projects__card">
+                            <img src="img\arm_16x9.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle"> Opencv Gesture control 3DOF robotic arm</span>
+                                    <h3 class="projects__title">opencv Project</h3>
+                                    <a href="https://youtu.be/JnquNfKUCjw?si=VD2sTH2gBpPckM7Z" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-youtube-fill"></i>
+                                    </a>
+
+                                    <a href="https://github.com/ashikf378/Opencv-Gesture-controll-3DOF-robotic-arm.git" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="img\AUG.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Iot+AR based led on offcontrol</span>
+                                    <h3 class="projects__title">Iot+AR</h3>
+                                    <a href="https://youtu.be/QhcUbV_yygo?si=fGPCbWWJuRVMcco4" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-youtube-fill"></i>
+                                    </a>
+                                    <a href="https://github.com/ashikf378/Iot-AR-based-led-on-off-control.git" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="img\home_auto.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Iot based Home Automation-</span>
+                                    <h3 class="projects__title">Esp8266+Arduino</h3>
+                                    <a href="https://youtu.be/DwhhR9RWewI?si=mFUPoZSsUo97JIO8" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-youtube-fill"></i>
+                                    </a>
+
+                                    <a href="https://github.com/ashikf378/Home-Automation-.git" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="img\laser tracker_16x9.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">opencv laser Tracker-</span>
+                                    <h3 class="projects__title">opencv project</h3>
+                                    <a href="https://youtu.be/eyNKWaBYrkY?si=9CLT463QkY1uuu7D" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-youtube-fill"></i>
+                                    </a>
+
+                                    <a href="https://github.com/ashikf378/opencv-laser-Tracker-.git" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="projects__card">
+                            <img src="img\sign language.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">opencv sign language detection with oled display feedback</span>
+                                    <h3 class="projects__title">Opencv project</h3>
+                                    <a href="https://youtu.be/_VnuVNKeevg?si=bG10ohvoXM4-qEWS" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-youtube-fill"></i>
+                                    </a>
+                                    <a href="https://github.com/ashikf378/opencv-sign-language-detection-with-oled-display-feedback.git" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="projects__card">
+                            <img src="img\gps.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">iot-based-gps-tracker-</span>
+                                    <h3 class="projects__title">Iot+GPS</h3>
+                                    <a href="https://youtu.be/zFgmYc1Dyk4?si=fytOOrnYQXPKP0gN" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-youtube-fill"></i>
+                                    </a>
+
+                                    <a href="https://github.com/ashikf378/iot-based-gps-tracker-.git" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!--skills-->
+                <div class="skillsContent grid" data-content id="skills">
+                    <div class="skillsArea">
+                        <h3 class="skillsTitle">
+                            About Me
+                        </h3>
+
+                        <div class="skillsBox">
+                            <div class="skillsGroup">
+                                <div class="skillsData">
+                                    <i class="ri-focus-2-line"></i>
+
+                                    <div>
+
+                                        <span class="skillsLevel">
+                                            As a Mechanical engineer with passion for designing and optimizing
+                                            innovative solutions, combining technical expertise with a strong analytical
+                                            mindset to drive efficiency and excellence in Mechanical systems.
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h3 class="skillsTitle">
+                        Experience
+                    </h3>
+
+                    
+                    <div class="circle-container">
+                        <img src="img\rc1.png" alt="Small PNG Image" class="circle-image">
+                        <div>
+                          <h3 class="skillsName"><a href="https://www.facebook.com/photo.php?fbid=145626284949196&set=pb.100085054756944.-2207520000&type=3"
+                              style="color: inherit;">Aust Robotics Club</a></h3>
+                          <p>(Joint Secretary)</p>
+                        </div>
+                      </div>
+                    
+
+
+                      <div class="circlee-container">
+                          <img src="img/ASME!.jpeg">
+                          <div>
+                            <h3 class="skillsName"><a href="https://www.facebook.com/photo.php?fbid=145626284949196&set=pb.100085054756944.-2207520000&type=3"
+                                style="color: inherit;">ASME</a></h3>
+                            <p>(Additional Secretary)</p>
+                          </div>
+                        </div>
+
+
+
+                 <h3 class="skillsTitle">
+                            Skills Area
+                        </h3>
+                         <div class="skillsBox">
+                            <div class="skillsGroup">
+                                <div class="skillsData">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skillsName"><a href=""
+                                                style="color: inherit;">Circuit Design</a></h3>
+                                        <span class="skillsLevel">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skillsData">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skillsName"><a href=""
+                                                style="color: inherit;">Arduino</a></h3>
+                                        <span class="skillsLevel">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skillsData">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skillsName"><a href=""
+                                                style="color: inherit;">python</a></h3>
+                                        <span class="skillsLevel">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skillsData">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skillsName"><a href=""
+                                                style="color: inherit;">OpenCv</a></h3>
+                                        <span class="skillsLevel">Basic</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skillsGroup">
+                                <div class="skillsData">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skillsName"><a href=""
+                                                style="color: inherit;">solidWorks</a></h3>
+                                        <span class="skillsLevel">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skillsData">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skillsName"><a href=""
+                                                style="color: inherit;">C++</a></h3>
+                                        <span class="skillsLevel">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <h3 class="skillsTitle">
+                            Competition 
+                        </h3>
+                        <div class="projects__content grid filters__active" >
+                        <article class="exp__card">
+                            <img src="img/Hult_Prize.jpg" alt="" class="exp__img">
+
+                            <div class="exp__modal">
+                                <div>
+                                    <span class="exp__subtitle">HULT PRIZE</span>
+                                    <h3 class="exp__title">2nd Runners Up</h3>
+                                    <a href="https://drive.google.com/file/d/1A-Bun8D5n0yaLWhai-6_I7I6N0nbcZ06/view?usp=sharing" target="_blank"
+                                        class="exp__button button button__small">
+                                        <i class="ri-drive-line"></i>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="exp__card">
+                            <img src="img/RESOLUE 1.0.jpg" alt="" class="exp__img">
+
+                            <div class="exp__modal">
+                                <div>
+                                    <span class="exp__subtitle">RESOLUE 1.0</span>
+                                    <h3 class="exp__title">1st Runners Up</h3>
+                                    <a href="https://drive.google.com/file/d/1wrePt9tlMtG_jc-pzSXsMQK38hlMUu4r/view?usp=sharing" target="_blank"
+                                        class="exp__button button button__small">
+                                        <i class="ri-drive-line"></i>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </article>
+                   </div>
+
+
+
+
+
+
+                    <h3 class="skillsTitle">
+                        Accomplishment
+                    </h3>
+                    <div class="projects__content grid filters__active" >
+                    <article class="exp__card">
+                        <img src="img/Arduino Certificate.jpg" alt="" class="exp__img">
+
+                        <div class="exp__modal">
+                            <div>
+                                <span class="exp__subtitle">Unversity Of California, Irvine</span>
+                                <h3 class="exp__title">The Arduino Platform and C Programming</h3>
+                                <a href="https://drive.google.com/file/d/1wIkTLn1iA25C_WyowjpLxfh_THjuPI35/view?usp=sharing" target="_blank"
+                                    class="exp__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="exp__card">
+                        <img src="img/python_cer.jpg" alt="" class="exp__img">
+
+                        <div class="exp__modal">
+                            <div>
+                                <span class="exp__subtitle">University of Michigan  </span>
+                                <h3 class="exp__title">Python Basics</h3>
+                                <a href="https://coursera.org/share/a01d4a230834dbe64b56967e6636747e" target="_blank"
+                                    class="exp__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="exp__card">
+                        <img src="img/c_prog.jpg" alt="" class="exp__img">
+
+                        <div class="exp__modal">
+                            <div>
+                                <span class="exp__subtitle">University of California, Santa Cruz</span>
+                                <h3 class="exp__title">C for Everyone: Programming Fundamentals</h3>
+                                <a href="https://coursera.org/share/5dceb7079bf8239fb4b0da12301d881b" target="_blank"
+                                    class="exp__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="exp__card">
+                        <img src="img/GIT.jpg" alt="" class="exp__img">
+
+                        <div class="exp__modal">
+                            <div>
+                                <span class="exp__subtitle">Coursera project</span>
+                                <h3 class="exp__title">Git + GitHub for Open Source Collaboration
+                                </h3>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/YP7KTW8QTXPL" target="_blank"
+                                    class="exp__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="exp__card">
+                        <img src="img/Ardu_cert2.jpg" alt="" class="exp__img">
+
+                        <div class="exp__modal">
+                            <div>
+                                <span class="exp__subtitle">University of California, Santa Cruz</span>
+                                <h3 class="exp__title">Interfacing with the Arduino</h3>
+                                <a href="https://coursera.org/share/e158401a1cd05bd0bdde9333a6007dff" target="_blank"
+                                    class="exp__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+
+
+
+            </div>
+         </div>
+
+                
+
+
+             
+
+
+                        
+
+                    <!-- Education -->
+                    <div class="edu__content grid" data-content id="education">
+                        <article class="edu__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="img/arm_pic.jpg" alt="TIB" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Solidworks</span>
+                                    <h3 class="edu__title">Robotic Arm</h3>
+                                    <a href="https://grabcad.com/library/6-dof-robotic-arm-7"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="edu__card">
+                            <img src="img/cycle.jpg" alt="PTC" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Solidworks</span>
+                                    <h3 class="edu__title">Cycle</h3>
+                                    <a href="https://grabcad.com/library/precision-crafted-bicycle-model-1"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="edu__card">
+                            <img src="img\fork.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Solidworks</span>
+                                    <h3 class="edu__title">Fork Lifter</h3>
+                                    <a href="https://grabcad.com/library/forklift-model-2"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="edu__card">
+                            <img src="img\hydrulic.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Solidworks </span>
+                                    <h3 class="edu__title">Hydurlic Lifter </h3>
+                                    <a href="https://grabcad.com/library/hydraulic-floor-jack-23"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="edu__card">
+                            <img src="img\kayek.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Solidworks</span>
+                                    <h3 class="edu__title">Kayek</h3>
+                                    <a href=""
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="edu__card">
+                            <img src="img\porter 2.1.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Solidworks</span>
+                                    <h3 class="edu__title">Porter</h3>
+                                    <a href="https://grabcad.com/library/harry-porter-golden-snitch-3"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="edu__card">
+                            <img src="img\press.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">toggole press</span>
+                                    <h3 class="edu__title">Solidworks</h3>
+                                    <a href="https://grabcad.com/library/toggle-press-4"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+
+                        <article class="edu__card">
+                            <img src="img\shock absorver.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Shock Absorver</span>
+                                    <h3 class="edu__title">Solidworks</h3>
+                                    <a href="https://grabcad.com/library/shock-absorver-6"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+
+                        <article class="edu__card">
+                            <img src="img\arduino.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Arduino</span>
+                                    <h3 class="edu__title">Solidworks</h3>
+                                    <a href="https://grabcad.com/library/arduino-4"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="edu__card">
+                            <img src="img\lego car.jpg" alt="kecs" class="edu__img">
+
+                            <div class="edu__modal">
+                                <div>
+                                    <span class="edu__subtitle">Lego car</span>
+                                    <h3 class="edu__title">Solidworks</h3>
+                                    <a href="https://grabcad.com/library/lego-toy-car-7"
+                                        target="_blank" class="edu__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+
+
+
+                    </div>
+                </div>
+
+
+                <!-- Events -->
+                <div class="ev__content grid" data-content id="Events">
+
+
+
+                    <article class="ev__card">
+                        <img src="img\ARC.jpg" alt="" class="ev__img">
+    
+                        <div class="ev__modal">
+                            <div>
+                                <span class="ev__subtitle">AUST Rover Challenge 2022</span>
+                                <h3 class="ev__title">Event Host , LFR Segment leader</h3>
+                                <a href="https://www.facebook.com/events/1072789436680896/?post_id=1091801138113059&view=permalink" target="_blank"
+                                    class="ev__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+    
+                                <a href="https://drive.google.com/file/d/1erx3lAsFlRIZhDoSdfQ1H3yoNy4OsUTl/view?usp=sharing" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-drive-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="ev__card">
+                        <img src="img\Imech3.jpg" alt="" class="exp__img">
+    
+                        <div class="ev__modal">
+                            <div>
+                                <span class="ev__subtitle">Event Instructor </span>
+                                <h3 class="ev__title">Build & Simulate Arduino project on Tinkarcad </h3>
+                                <a href="https://www.facebook.com/events/727106295658118" target="_blank"
+                                    class="ev__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    
+
+                    <article class="ev__card">
+                        <img src="./img/sd.jpg" alt="kecs" class="ev__img">
+
+                        <div class="ev__modal">
+                            <div>
+                                <span class="ev__subtitle">Participant</span>
+                                <h3 class="ev__title">Mechanical</h3>
+                                <a href="https://www.facebook.com/photo/?fbid=224318523674384&set=gm.145048185220008 target="
+                                target="_blank" class="ev__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; All rigths reserved
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
